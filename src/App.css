@@ -1,0 +1,318 @@
+body {
+  background: linear-gradient(to right, #b8e7e1 50%, #d4fafc 50%);
+}
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background: linear-gradient(to left bottom, #f7ffe5 50%, #ffdede 50%);
+  background-size: 200% 200%;
+  border: 2px solid black;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  width: 400px;
+  max-width: 100%;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.button_add {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+}
+
+.button_add:hover {
+  background-color: darkblues;
+}
+.button_clear {
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #ff6666;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.button_clear:hover {
+  background-color: red;
+}
+.error {
+  color: rgb(255, 6, 6);
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.items-container {
+  margin-top: 20px;
+  width: 400px;
+  max-width: 100%;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.item {
+  flex-grow: 1;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.expense {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.date {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.delete-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #dc3545;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-button:hover {
+  background-color: #b02a37;
+}
+.items-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.table {
+  border: 2px solid black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+.table-row {
+  background-color: #fff;
+}
+
+.table-cell {
+  border: 1px solid black;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.delete-button {
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #dc3545;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-button:hover {
+  background-color: #b02a37;
+}
+.items-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333333;
+}
+.card-body {
+  margin-right: 15px;
+}
+.table-cell-b {
+  width: 70px;
+}
+.update-button {
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: green;
+  cursor: pointer;
+}
+.update-button:hover {
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: darkgreen;
+  cursor: pointer;
+}
+.table-cell_b {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 10%;
+  text-align: center;
+}
+.table-cell_sno {
+  padding: 2px;
+  border: 1px solid #ccc;
+  width: 5%;
+  text-align: center;
+}
+
+.chartui {
+  display: inline;
+  width: 50%;
+  background-color: white;
+}
+.chartui {
+  width: 50%;
+  background-color: white;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.chartui canvas {
+  height: 300px;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.select-year {
+  margin-left: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+}
+
+.button:hover {
+  background-color: darkblue;
+}
+.App {
+  text-align: center;
+}
+
+.inline-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
