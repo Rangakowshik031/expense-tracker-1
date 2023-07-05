@@ -130,7 +130,7 @@ function App() {
           {error && <p className="error">*Invalid data</p>}
           <div className="button-container">
             <button className="button" onClick={addToLocalStorage}>
-              Add to LocalStorage
+              Add Expense
             </button>
             <button className="button" onClick={clearLocalStorage}>
               Clear Data
